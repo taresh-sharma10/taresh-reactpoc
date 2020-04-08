@@ -1,0 +1,13 @@
+^(?=.*?AV:).*?<[^:]+:(?<severity>[^>]+)>.*?CEF:0\|Trend Micro\|Apex Central\|(?<version>\d+)\|(?<vendorinfo>.*?)\|.*?\|(?<severity>\d+)\|deviceExternalId=(?<vmid>\d+).*?dhost=(?<dname>\S+) act=(?<action>.*?)cn1Label.*?cs1=(?<policy>.*?)cs2Label=.*?dvchost=(?<sname>\S+).*?fname=(?<process>.*?)filepath=(?<parentprocesspath>\S+)\s+.*?dst=<dip>(\s+fileHash=(?<hash>\S+))?.*?deviceFacility=(?<objecttype>.*?)$
+
+final
+
+^(?=.*?AV:).*?<[^:]+:(?<severity>[^>]+)>.*?CEF:0\|Trend Micro\|Apex Central\|(?<version>\d+)\|(?<vendorinfo>.*?)\|.*?\|(?<severity>\d+)\|deviceExternalId=(?<vmid>\d+).*?dhost=(?<dname>\S+) act=(?<action>.*?)cn1Label.*?cs1=(?<policy>.*?)cs2Label=.*?dvchost=(?<sname>\S+).*?fname=(?<process>.*?)filepath=(?<object>\S+)\s+.*?dst=<dip>(\s+fileHash=(?<hash>\S+))?.*?deviceFacility=(?<objecttype>.*?)$
+
+file logs
+
+Behaviour monitoring logs
+^(?=.*?BM:).*?<[^:]+:(?<severity>[^>]+)>.*?CEF:0\|Trend Micro\|(Control Manager|Apex Central)\|(?<version>[^\|]+)\|(?<vmid>BM:\d+)\|Behavior Monitoring\|(?<severity>[^\|]+)\|.*?dvchost=(?<dname>\S+).*?sproc=(?<parentprocesspath>.*?)\s+cn2label=.*?cn2=(?<object>\d+)\s+cs1Label=.*?cs1=(?<process>.*?)\s+act=(?<result>\S+)\s+.*?shost=(?<sname>\S+) src=(?<sip>\S+) deviceFacility=(?<objecttype>.*?)$
+
+Device access control logs
+^.*?<[^:]+:(?<severity>[^>]+)>.*?CEF:0\|Trend Micro\|(Control Manager|Apex Central)\|(?<version>[^\|]+)\|(?<vmid>\d+)\|Device Access Control\|(?<severity>[^\|]+)\|.*?shost=(?<sname>\S+)\s+(.*?sproc=(?<parentprocesspath>.*?)\s+fname=(?<process>\S+)\s+)?.*?cn2label=\S+\s+cn2=(?<object>\d+)\s+cn3label=.*?cn3=(?<command>\S+)\s+devicefacility=((?<objectname>.*?)$)

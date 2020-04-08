@@ -1,0 +1,29 @@
+.header {
+}
+.body-innerwrapper{
+        background-color: red;
+    
+}
+.li-link{
+    display: inline;
+}
+
+
+
+
+#sp-head{
+    background-color: lightgrey;
+}
+
+#sp-head .logo{
+    justify-content: center;
+    margin:0 auto;
+    margin-top:0px;
+}
+
+
+.form-inner{
+    display: flex;
+    justify-content: center;
+}
+
