@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/taresh-sharma10.github.io/taresh-react-app/static/css/main.f2b4194b.chunk.css",
+    "main.js": "/taresh-sharma10.github.io/taresh-react-app/static/js/main.7191055c.chunk.js",
+    "main.js.map": "/taresh-sharma10.github.io/taresh-react-app/static/js/main.7191055c.chunk.js.map",
+    "runtime-main.js": "/taresh-sharma10.github.io/taresh-react-app/static/js/runtime-main.1baf356d.js",
+    "runtime-main.js.map": "/taresh-sharma10.github.io/taresh-react-app/static/js/runtime-main.1baf356d.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/taresh-sharma10.github.io/taresh-react-app/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.24593f00.chunk.js": "/taresh-sharma10.github.io/taresh-react-app/static/js/2.24593f00.chunk.js",
+    "static/js/2.24593f00.chunk.js.map": "/taresh-sharma10.github.io/taresh-react-app/static/js/2.24593f00.chunk.js.map",
+    "index.html": "/taresh-sharma10.github.io/taresh-react-app/index.html",
+    "precache-manifest.89c9194b8b1c4c5c4ef54474df85fb22.js": "/taresh-sharma10.github.io/taresh-react-app/precache-manifest.89c9194b8b1c4c5c4ef54474df85fb22.js",
+    "service-worker.js": "/taresh-sharma10.github.io/taresh-react-app/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/taresh-sharma10.github.io/taresh-react-app/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.f2b4194b.chunk.css.map": "/taresh-sharma10.github.io/taresh-react-app/static/css/main.f2b4194b.chunk.css.map",
+    "static/js/2.24593f00.chunk.js.LICENSE.txt": "/taresh-sharma10.github.io/taresh-react-app/static/js/2.24593f00.chunk.js.LICENSE.txt",
+    "static/media/gutten.png": "/taresh-sharma10.github.io/taresh-react-app/static/media/gutten.ad98d6e9.png",
+    "static/media/logo.svg": "/taresh-sharma10.github.io/taresh-react-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1baf356d.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.24593f00.chunk.js",
+    "static/css/main.f2b4194b.chunk.css",
+    "static/js/main.7191055c.chunk.js"
+  ]
+}
